@@ -18,6 +18,15 @@
 		4D3F733217BD86EE007C92BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F733117BD86EE007C92BF /* Default@2x.png */; };
 		4D3F733417BD86EE007C92BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F733317BD86EE007C92BF /* Default-568h@2x.png */; };
 		4D3F733717BD86EE007C92BF /* SwishList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F733517BD86EE007C92BF /* SwishList.xcdatamodeld */; };
+		4D3F733F17BD873F007C92BF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F733E17BD873F007C92BF /* MasterViewController.m */; };
+		4D3F734817BD89F0007C92BF /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F734717BD89F0007C92BF /* Note.m */; };
+		4D3F734C17BD8ACA007C92BF /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F734B17BD8ACA007C92BF /* DataStore.m */; };
+		4D9CB48717C478E300D6E11A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CB48617C478E300D6E11A /* QuartzCore.framework */; };
+		4D9CB48C17C4895C00D6E11A /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CB48B17C4895C00D6E11A /* ListTableViewCell.m */; };
+		4DFD3D9817BDCC3D001A494B /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */; };
+		4DFD3D9B17BDCED7001A494B /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9A17BDCED7001A494B /* NoteViewController.m */; };
+		4DFD3D9E17BDCFE9001A494B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9D17BDCFE9001A494B /* MenuViewController.m */; };
+		4DFD3DA117BDE202001A494B /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3DA017BDE202001A494B /* List.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +45,23 @@
 		4D3F733117BD86EE007C92BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D3F733317BD86EE007C92BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4D3F733617BD86EE007C92BF /* SwishList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwishList.xcdatamodel; sourceTree = "<group>"; };
+		4D3F733D17BD873F007C92BF /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4D3F733E17BD873F007C92BF /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4D3F734617BD89F0007C92BF /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		4D3F734717BD89F0007C92BF /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		4D3F734A17BD8ACA007C92BF /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		4D3F734B17BD8ACA007C92BF /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		4D9CB48617C478E300D6E11A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D9CB48A17C4895C00D6E11A /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		4D9CB48B17C4895C00D6E11A /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		4DFD3D9617BDCC3D001A494B /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		4DFD3D9917BDCED7001A494B /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		4DFD3D9A17BDCED7001A494B /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		4DFD3D9C17BDCFE9001A494B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		4DFD3D9D17BDCFE9001A494B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		4DFD3D9F17BDE202001A494B /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		4DFD3DA017BDE202001A494B /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9CB48717C478E300D6E11A /* QuartzCore.framework in Frameworks */,
 				4D3F731C17BD86EE007C92BF /* UIKit.framework in Frameworks */,
 				4D3F731E17BD86EE007C92BF /* Foundation.framework in Frameworks */,
 				4D3F732017BD86EE007C92BF /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +83,7 @@
 		4D3F730F17BD86EE007C92BF = {
 			isa = PBXGroup;
 			children = (
+				4D9CB48617C478E300D6E11A /* QuartzCore.framework */,
 				4D3F732317BD86EE007C92BF /* SwishList */,
 				4D3F731A17BD86EE007C92BF /* Frameworks */,
 				4D3F731917BD86EE007C92BF /* Products */,
@@ -86,7 +114,17 @@
 			children = (
 				4D3F732C17BD86EE007C92BF /* AppDelegate.h */,
 				4D3F732D17BD86EE007C92BF /* AppDelegate.m */,
-				4D3F733517BD86EE007C92BF /* SwishList.xcdatamodeld */,
+				4D3F733D17BD873F007C92BF /* MasterViewController.h */,
+				4D3F733E17BD873F007C92BF /* MasterViewController.m */,
+				4DFD3D9617BDCC3D001A494B /* ListTableViewController.h */,
+				4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */,
+				4D9CB48A17C4895C00D6E11A /* ListTableViewCell.h */,
+				4D9CB48B17C4895C00D6E11A /* ListTableViewCell.m */,
+				4DFD3D9C17BDCFE9001A494B /* MenuViewController.h */,
+				4DFD3D9D17BDCFE9001A494B /* MenuViewController.m */,
+				4DFD3D9917BDCED7001A494B /* NoteViewController.h */,
+				4DFD3D9A17BDCED7001A494B /* NoteViewController.m */,
+				4D3F734917BD89FC007C92BF /* Model */,
 				4D3F732417BD86EE007C92BF /* Supporting Files */,
 			);
 			path = SwishList;
@@ -104,6 +142,20 @@
 				4D3F733317BD86EE007C92BF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D3F734917BD89FC007C92BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F734A17BD8ACA007C92BF /* DataStore.h */,
+				4D3F734B17BD8ACA007C92BF /* DataStore.m */,
+				4D3F734617BD89F0007C92BF /* Note.h */,
+				4D3F734717BD89F0007C92BF /* Note.m */,
+				4DFD3D9F17BDE202001A494B /* List.h */,
+				4DFD3DA017BDE202001A494B /* List.m */,
+				4D3F733517BD86EE007C92BF /* SwishList.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +226,14 @@
 				4D3F732A17BD86EE007C92BF /* main.m in Sources */,
 				4D3F732E17BD86EE007C92BF /* AppDelegate.m in Sources */,
 				4D3F733717BD86EE007C92BF /* SwishList.xcdatamodeld in Sources */,
+				4D3F733F17BD873F007C92BF /* MasterViewController.m in Sources */,
+				4D3F734817BD89F0007C92BF /* Note.m in Sources */,
+				4D3F734C17BD8ACA007C92BF /* DataStore.m in Sources */,
+				4DFD3D9817BDCC3D001A494B /* ListTableViewController.m in Sources */,
+				4DFD3D9B17BDCED7001A494B /* NoteViewController.m in Sources */,
+				4DFD3D9E17BDCFE9001A494B /* MenuViewController.m in Sources */,
+				4DFD3DA117BDE202001A494B /* List.m in Sources */,
+				4D9CB48C17C4895C00D6E11A /* ListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +350,7 @@
 				4D3F733C17BD86EE007C92BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
