@@ -23,6 +23,10 @@
 		4D3F734C17BD8ACA007C92BF /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F734B17BD8ACA007C92BF /* DataStore.m */; };
 		4D9CB48717C478E300D6E11A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CB48617C478E300D6E11A /* QuartzCore.framework */; };
 		4D9CB48C17C4895C00D6E11A /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CB48B17C4895C00D6E11A /* ListTableViewCell.m */; };
+		4D9CB48E17C4900900D6E11A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB48D17C4900900D6E11A /* Icon.png */; };
+		4D9CB49017C4900C00D6E11A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB48F17C4900C00D6E11A /* Icon@2x.png */; };
+		4D9CB49217C4901300D6E11A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB49117C4901300D6E11A /* Icon-72.png */; };
+		4D9CB49417C4901500D6E11A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB49317C4901500D6E11A /* Icon-72@2x.png */; };
 		4DFD3D9817BDCC3D001A494B /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */; };
 		4DFD3D9B17BDCED7001A494B /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9A17BDCED7001A494B /* NoteViewController.m */; };
 		4DFD3D9E17BDCFE9001A494B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9D17BDCFE9001A494B /* MenuViewController.m */; };
@@ -54,6 +58,10 @@
 		4D9CB48617C478E300D6E11A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4D9CB48A17C4895C00D6E11A /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
 		4D9CB48B17C4895C00D6E11A /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		4D9CB48D17C4900900D6E11A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		4D9CB48F17C4900C00D6E11A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		4D9CB49117C4901300D6E11A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		4D9CB49317C4901500D6E11A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
 		4DFD3D9617BDCC3D001A494B /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		4DFD3D9917BDCED7001A494B /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
@@ -83,7 +91,6 @@
 		4D3F730F17BD86EE007C92BF = {
 			isa = PBXGroup;
 			children = (
-				4D9CB48617C478E300D6E11A /* QuartzCore.framework */,
 				4D3F732317BD86EE007C92BF /* SwishList */,
 				4D3F731A17BD86EE007C92BF /* Frameworks */,
 				4D3F731917BD86EE007C92BF /* Products */,
@@ -101,6 +108,7 @@
 		4D3F731A17BD86EE007C92BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D9CB48617C478E300D6E11A /* QuartzCore.framework */,
 				4D3F731B17BD86EE007C92BF /* UIKit.framework */,
 				4D3F731D17BD86EE007C92BF /* Foundation.framework */,
 				4D3F731F17BD86EE007C92BF /* CoreGraphics.framework */,
@@ -133,6 +141,10 @@
 		4D3F732417BD86EE007C92BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D9CB49317C4901500D6E11A /* Icon-72@2x.png */,
+				4D9CB49117C4901300D6E11A /* Icon-72.png */,
+				4D9CB48F17C4900C00D6E11A /* Icon@2x.png */,
+				4D9CB48D17C4900900D6E11A /* Icon.png */,
 				4D3F732517BD86EE007C92BF /* SwishList-Info.plist */,
 				4D3F732617BD86EE007C92BF /* InfoPlist.strings */,
 				4D3F732917BD86EE007C92BF /* main.m */,
@@ -213,6 +225,10 @@
 				4D3F733017BD86EE007C92BF /* Default.png in Resources */,
 				4D3F733217BD86EE007C92BF /* Default@2x.png in Resources */,
 				4D3F733417BD86EE007C92BF /* Default-568h@2x.png in Resources */,
+				4D9CB48E17C4900900D6E11A /* Icon.png in Resources */,
+				4D9CB49017C4900C00D6E11A /* Icon@2x.png in Resources */,
+				4D9CB49217C4901300D6E11A /* Icon-72.png in Resources */,
+				4D9CB49417C4901500D6E11A /* Icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
