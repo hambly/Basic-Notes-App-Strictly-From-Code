@@ -21,6 +21,7 @@
 		4D3F734817BD89F0007C92BF /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F734717BD89F0007C92BF /* Note.m */; };
 		4D3F734C17BD8ACA007C92BF /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F734B17BD8ACA007C92BF /* DataStore.m */; };
 		4D4004C6180C77E5007356E3 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004C5180C77E5007356E3 /* Screenshot.png */; };
+		4D4004C8180C7F01007356E3 /* Screenshot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004C7180C7F01007356E3 /* Screenshot@2x.png */; };
 		4D79DF1917CD97E8002AE5E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79DF1817CD97E8002AE5E2 /* AppDelegate.m */; };
 		4D9CB48717C478E300D6E11A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9CB48617C478E300D6E11A /* QuartzCore.framework */; };
 		4D9CB48C17C4895C00D6E11A /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CB48B17C4895C00D6E11A /* ListTableViewCell.m */; };
@@ -57,6 +58,7 @@
 		4D3F734A17BD8ACA007C92BF /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
 		4D3F734B17BD8ACA007C92BF /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
 		4D4004C5180C77E5007356E3 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		4D4004C7180C7F01007356E3 /* Screenshot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot@2x.png"; sourceTree = "<group>"; };
 		4D79DF1817CD97E8002AE5E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D9CB48617C478E300D6E11A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4D9CB48A17C4895C00D6E11A /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				4D3F731917BD86EE007C92BF /* Products */,
 				4DE6FFD5180B9B2300074EB5 /* README.md */,
 				4D4004C5180C77E5007356E3 /* Screenshot.png */,
+				4D4004C7180C7F01007356E3 /* Screenshot@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,6 +242,7 @@
 				4D3F733017BD86EE007C92BF /* Default.png in Resources */,
 				4D3F733217BD86EE007C92BF /* Default@2x.png in Resources */,
 				4D3F733417BD86EE007C92BF /* Default-568h@2x.png in Resources */,
+				4D4004C8180C7F01007356E3 /* Screenshot@2x.png in Resources */,
 				4D9CB48E17C4900900D6E11A /* Icon.png in Resources */,
 				4D9CB49017C4900C00D6E11A /* Icon@2x.png in Resources */,
 				4DE6FFD6180B9B2300074EB5 /* README.md in Resources */,
