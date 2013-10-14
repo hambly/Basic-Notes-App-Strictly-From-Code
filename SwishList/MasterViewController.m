@@ -53,6 +53,10 @@ typedef enum {
 	return self;
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle {
+	return UIStatusBarStyleLightContent;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -85,6 +89,8 @@ typedef enum {
 	
 	self.navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectZero];
 	self.navigationBar.translatesAutoresizingMaskIntoConstraints = NO;
+	[self.view addSubview:self.navigationBar];
+	
 	// Top = 0 to super top
 	[self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.navigationBar
 														  attribute:NSLayoutAttributeTop
@@ -116,7 +122,7 @@ typedef enum {
 																	  toItem:nil
 																   attribute:NSLayoutAttributeNotAnAttribute
 																  multiplier:1.0f
-																	constant:32.0f]];
+																	constant:60.0f]];
 	self.navigationBar.barStyle = UIBarStyleBlack;
 	
 	
@@ -137,13 +143,12 @@ typedef enum {
 	
 	[self.navigationBar setItems:@[navigationItem]];
 	
-	[self.view addSubview:self.navigationBar];
-	
 }
 
 -(void) prepareListTableView {
 	UIView *listView = self.listTableViewController.view;
 	listView.translatesAutoresizingMaskIntoConstraints = NO;
+	[self.view addSubview:self.listTableViewController.view];
 	
 	// Listview Top = 0 to navbar.bottom
 	[self.view addConstraint:[NSLayoutConstraint constraintWithItem:listView
@@ -181,7 +186,7 @@ typedef enum {
 														  attribute:NSLayoutAttributeBottom
 														 multiplier:1.0f
 														   constant:0.0f]];	
-	[self.view addSubview:self.listTableViewController.view];
+	
 	
 }
 
@@ -389,7 +394,6 @@ typedef enum {
 	
 }
 	
-
 
 #pragma mark - ListTableViewController Delegate Methods
 

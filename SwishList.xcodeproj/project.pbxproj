@@ -27,7 +27,7 @@
 		4D9CB49017C4900C00D6E11A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB48F17C4900C00D6E11A /* Icon@2x.png */; };
 		4D9CB49217C4901300D6E11A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB49117C4901300D6E11A /* Icon-72.png */; };
 		4D9CB49417C4901500D6E11A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CB49317C4901500D6E11A /* Icon-72@2x.png */; };
-		4DE6FFD4180B987100074EB5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6FFD3180B987100074EB5 /* README.md */; };
+		4DE6FFD6180B9B2300074EB5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6FFD5180B9B2300074EB5 /* README.md */; };
 		4DFD3D9817BDCC3D001A494B /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */; };
 		4DFD3D9B17BDCED7001A494B /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9A17BDCED7001A494B /* NoteViewController.m */; };
 		4DFD3D9E17BDCFE9001A494B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD3D9D17BDCFE9001A494B /* MenuViewController.m */; };
@@ -63,7 +63,7 @@
 		4D9CB48F17C4900C00D6E11A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Graphics/Icon@2x.png"; sourceTree = "<group>"; };
 		4D9CB49117C4901300D6E11A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Graphics/Icon-72.png"; sourceTree = "<group>"; };
 		4D9CB49317C4901500D6E11A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "Graphics/Icon-72@2x.png"; sourceTree = "<group>"; };
-		4DE6FFD3180B987100074EB5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4DE6FFD5180B9B2300074EB5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4DFD3D9617BDCC3D001A494B /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		4DFD3D9717BDCC3D001A494B /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		4DFD3D9917BDCED7001A494B /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
@@ -96,6 +96,7 @@
 				4D3F732317BD86EE007C92BF /* SwishList */,
 				4D3F731A17BD86EE007C92BF /* Frameworks */,
 				4D3F731917BD86EE007C92BF /* Products */,
+				4DE6FFD5180B9B2300074EB5 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,7 +152,6 @@
 				4D3F732F17BD86EE007C92BF /* Default.png */,
 				4D3F733117BD86EE007C92BF /* Default@2x.png */,
 				4D3F733317BD86EE007C92BF /* Default-568h@2x.png */,
-				4DE6FFD3180B987100074EB5 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				4D3F733417BD86EE007C92BF /* Default-568h@2x.png in Resources */,
 				4D9CB48E17C4900900D6E11A /* Icon.png in Resources */,
 				4D9CB49017C4900C00D6E11A /* Icon@2x.png in Resources */,
-				4DE6FFD4180B987100074EB5 /* README.md in Resources */,
+				4DE6FFD6180B9B2300074EB5 /* README.md in Resources */,
 				4D9CB49217C4901300D6E11A /* Icon-72.png in Resources */,
 				4D9CB49417C4901500D6E11A /* Icon-72@2x.png in Resources */,
 			);
