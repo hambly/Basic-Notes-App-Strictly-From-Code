@@ -82,6 +82,9 @@ typedef enum {
 	
 	[self prepareListTableView];
 	
+	[self.listTableViewController refreshNotes];
+	[self.listTableViewController.tableView reloadData];
+	
 }
 
 - (void) prepareNavigationBar {
